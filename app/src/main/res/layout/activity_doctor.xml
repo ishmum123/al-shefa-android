@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FindDoctorActivity">
+    tools:context=".DoctorActivity">
 
     <View
         android:id="@+id/topView"
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="48dp"
-        android:text="@string/find_a_doctor_txt"
+        android:text="@string/help_a_patient_txt"
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -50,37 +50,39 @@
         app:layout_constraintStart_toStartOf="@+id/topView"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Spinner
-        android:id="@+id/spnrCategory"
+    <Button
+        android:id="@+id/goLive"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/round_border"
-        android:text="@string/find_doctor_btn_txt"
+        android:background="@drawable/round_bg"
+        android:text="@string/go_live_txt"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view5"
+        android:onClick="goLive"
         />
 
     <Button
-        android:id="@+id/search"
+        android:id="@+id/viewAppointments"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/round_bg"
-        android:text="@string/search_txt"
+        android:text="@string/view_appointments_txt"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spnrCategory" />
+        app:layout_constraintTop_toBottomOf="@+id/goLive"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

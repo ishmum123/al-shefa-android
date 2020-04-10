@@ -15,6 +15,10 @@
     <string name="need_help_txt">Need Help</string>
     <string name="find_a_doctor_txt">Find A Doctor</string>
     <string name="search_txt">Search</string>
+    <string name="help_a_patient_txt">Help A Patient</string>
+    <string name="ongoing_requests_txt">Ongoing Requests</string>
+    <string name="go_live_txt">Go Live</string>
+    <string name="view_appointments_txt">View Appointments</string>
     <string-array name="doctor_categories">
         <item>General</item>
         <item>Cardiology</item>

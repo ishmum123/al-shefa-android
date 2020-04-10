@@ -5,16 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class PatientActivity : AppCompatActivity() {
+class DoctorActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_patient)
+        setContentView(R.layout.activity_doctor)
     }
 
     @Suppress("UNUSED_PARAMETER")
-    fun findDoctor(view: View) {
-        val intent = Intent(this, FindDoctorActivity::class.java)
+    fun goLive(view: View) {
+        val intent = Intent(this, GoLiveActivity::class.java)
         startActivity(intent)
     }
 }
