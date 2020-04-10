@@ -13,4 +13,12 @@
     <string name="make_appointment_btn_txt">Make an Appointment</string>
     <string name="ask_question_btn_txt">Ask a Question</string>
     <string name="need_help_txt">Need Help</string>
+    <string name="find_a_doctor_txt">Find A Doctor</string>
+    <string name="search_txt">Search</string>
+    <string-array name="doctor_categories">
+        <item>General</item>
+        <item>Cardiology</item>
+        <item>Gynaecology</item>
+        <item>ENT</item>
+    </string-array>
 </resources>
