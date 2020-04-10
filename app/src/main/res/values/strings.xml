@@ -9,4 +9,8 @@
     <string name="google_icon">google icon</string>
     <string name="facebook_icon">facebook icon</string>
     <string name="new_user_register_now">New User? Register Now</string>
+    <string name="find_doctor_btn_txt">Find a Doctor</string>
+    <string name="make_appointment_btn_txt">Make an Appointment</string>
+    <string name="ask_question_btn_txt">Ask a Question</string>
+    <string name="need_help_txt">Need Help</string>
 </resources>
